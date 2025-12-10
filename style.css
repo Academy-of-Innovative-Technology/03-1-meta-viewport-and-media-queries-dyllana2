@@ -32,16 +32,29 @@ nav ul{
 - Show the navigation bar
 - Apply Flexbox to the class="sections" */
 
-@media (min-width: 1024px) {
-.menu {
-
-
-}
+@media (min-width: 1024px) { 
+    .menu {
+    display:none
 
 }
 
-
+nav ul{
+    display:block;
+}
+.sections {
+    display: flex;
+}
+}
 
 
 
 /* 3. Create a media query that targets screens at a min-width of 1024px. At this screen size, apply your any custom style to the page. */
+  
+
+    @media ( min-width: 1024px) {
+        body{
+            font-size: 18px;
+            font-weight: bold;
+            font-style: italic;
+        }
+    }
